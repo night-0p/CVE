@@ -1,4 +1,4 @@
-# CVE
+# code exec
 In `webui/modules/log/fw_security.mds` after accepting the log_type parameter, without any filtering, it is directly spliced into the $table variable, and passed into exec, resulting in code execution.
 ![image](https://github.com/night-0p/CVE/assets/54882616/3fd651bf-98e3-4e86-a844-0f42f3099088)
 test steps:  
