@@ -27,3 +27,5 @@ The following is the result of executing `whoami`. root authority.
 <img width="1247" alt="image" src="https://github.com/night-0p/CVE/assets/54882616/4fc5085b-9000-4283-a242-b557c69b2bba">  
 this Website fingerprinting:  
 https://fofa.info/result?qbase64=YXBwPSLlronmgZLkv6Hmga8t5piO5b6h5a6J5YWo572R5YWzIg%3D%3D
+this version:  
+<img width="1068" alt="image" src="https://github.com/night-0p/anh/assets/54882616/9ba496ab-38e8-41ad-888c-c27a2632989e">
