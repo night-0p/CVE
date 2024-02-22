@@ -1,3 +1,9 @@
+Cause of the vulnerability: Improper splicing of the oneParameter parameter in the file center/WEB-INF/lib/hik-icd-external-tool-1.3.0-SNAPSHOT/com/hikvision/externaltool/agent/base/CommandConvertUtils.java causes command execution.
+![image](https://github.com/night-0p/anh/assets/54882616/8ba930b7-c2ed-468f-a5d5-459899eb857f)
+
+
+The following is the analysis:
+
 In the `center/WEB-INF/lib/hik-icd-installmanager-1.3.0-SNAPSHOT/com/hikvision/installmanager/controller/deployment/DeployController.java` method `getDetection`, the parameters `type` and `operate` are accepted respectively, and the value of the parameter `type` is Must be environment.
 Then execute, `detectResponse = this.installDetectService.getSystemDetect(detectionRequest, operate);`  
 ![image](https://github.com/night-0p/anh/assets/54882616/ea03f6d7-9a2e-4b65-b022-01ba4ce99c44)
